@@ -1,0 +1,111 @@
+pwd ____present  working directory 
+cd_____ change directory
+mkdir____make directory
+cp and move commands
+rm remove 
+touch command(empty file)
+ln___
+
+
+
+
+
+
+
+ls - The most frequently used command in Linux to list directories
+pwd - Print working directory command in Linux
+cd - Linux command to navigate through directories
+mkdir - Command used to create directories in Linux
+mv - Move or rename files in Linux
+cp - Similar usage as mv but for copying files in Linux
+rm - Delete files or directories
+touch - Create blank/empty files
+ln - Create symbolic links (shortcuts) to other files
+clear - Clear the terminal display
+cat - Display file contents on the 
+
+
+
+tar [options] tar_file_name file1 file2
+
+
+tar -cf archive.tar newfile.txt1  newfile.txt2  # Create archive.tar from files foo and bar.
+  tar -tvf archive.tar         # List all files in archive.tar verbosely.
+  tar -xf archive.tar          # Extract all files from archive.tar.
+
+
+
+
+zip [options] zip_file_name file1 file2
+
+
+
+zip newfile.zip newfile.txt1 newfile.txt2
+
+
+unzip newfile.zip
+
+
+file newfile
+
+
+
+
+sudo command---super user do
+
+useradd, passwd, and userdel command
+df command
+
+
+
+
+useradd [options] new_username
+passwd new_username
+userdel new_username
+
+sudo [options] your_command
+
+sudo --help
+
+su [options] [username]
+
+
+whoami
+
+
+chmod command
+
+
+
+
+The spot after the first hyphen (–) specifies the permission for the owner of
+
+
+
+chmod command
+chmod [options] [permission] [file_or_directory]
+In Linux, there are three folder and file permissions – read (r), write (w), and execute (x). You can assign them to three parties – the owner, a group, or other accounts belonging to neither category. Consider this example:
+
+chmod -rwx---r-– file1.txt
+The spot after the first hyphen (–) specifies the permission for the owner of
+
+
+
+
+
+
+
+
+chmod -rwx---r-– file1.txt
+
+
+
+
+https://cocalc.com/features/terminal
+
+
+
+
+wget https://wordpress.org/latest.zip
+
+
